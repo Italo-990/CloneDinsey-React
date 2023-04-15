@@ -1,0 +1,34 @@
+.row-container{
+    margin-top: 16px;
+}
+.header-container{
+    color: white;
+    margin-left: 16px;
+}
+.trending{
+    font-size: 2rem !important;
+}
+.row-cards{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+.row-cards::-webkit-scrollbar{
+    display: none;
+}
+.card-large{
+    height: 400px !important;
+}
+.img-card{
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 200px;
+    display: block;
+    padding-right: 16px;
+    cursor: pointer;
+}
+.img-card:hover{
+    transform: scale(1.1);
+}
+

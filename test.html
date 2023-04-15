@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dtocumen</title>
+</head>
+<body>
+    <script>
+        const dados = {
+    "page": 10,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/fwrqW8Lp5VQuppFrODd4iJ8LySE.jpg",
+            "genre_ids": [
+                28,
+                12
+            ],
+            "id": 335787,
+            "original_language": "en",
+            "original_title": "Uncharted",
+            "overview": "Nathan Drake e seu parceiro canastrão Victor \"Sully\" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.",
+            "popularity": 235.847,
+            "poster_path": "/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg",
+            "release_date": "2022-02-10",
+            "title": "Uncharted: Fora do Mapa",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 4566
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mzFlwK2WN5KGCgEc4ExJmooJy97.jpg",
+            "genre_ids": [
+                16,
+                28,
+                10751,
+                35,
+                878
+            ],
+            "id": 539681,
+            "original_language": "en",
+            "original_title": "DC League of Super-Pets",
+            "overview": "Krypto, o Supercão, precisa convencer um grupo excêntrico de animais a dominar seus novos poderes para ajudá-lo no resgate da Liga da Justiça.",
+            "popularity": 244.568,
+            "poster_path": "/sQN9v8dIkEYtrGhLULweNNKONHg.jpg",
+            "release_date": "2022-07-27",
+            "title": "DC Liga dos Superpets",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 1176
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6YRQ8l93ZEs6x4rZojWoHIWdguK.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 1024546,
+            "original_language": "en",
+            "original_title": "Detective Knight: Rogue",
+            "overview": "Perseguindo bandidos de Los Angeles a Nova York, o Detetive Knight se depara com seu passado sombrio, colocando em risco seu caso... e sua vida.",
+            "popularity": 239.909,
+            "poster_path": "/deuqT4q8GS0hXvaSqi97tq3VvTc.jpg",
+            "release_date": "2022-10-21",
+            "title": "Detetive Knight: Vilão",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 95
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wL8KA3zIJQPbbU5hJlyIdmmLZit.jpg",
+            "genre_ids": [
+                35,
+                9648
+            ],
+            "id": 514999,
+            "original_language": "en",
+            "original_title": "Murder Mystery",
+            "overview": "Um policial de Nova York que finalmente leva a sua esposa em uma viagem para a Europa prometida por anos. Porém, um encontro por acaso no voo com um homem misterioso leva-os a uma reunião de família no iate gigantesco do idoso bilionário Malcolm Quince. Quando Quince é assassinado, eles tornam-se os principais suspeitos neste jogo de detetive dos dias modernos.",
+            "popularity": 243.36,
+            "poster_path": "/etbe0OUfPmW1eXDB5rPXrOsKQ4S.jpg",
+            "release_date": "2019-05-25",
+            "title": "Mistério no Mediterrâneo",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 3751
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rCZNtFhCId7zAMo68xyCEwnRvB.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 901563,
+            "original_language": "fr",
+            "original_title": "Close",
+            "overview": "A amizade entre dois meninos de treze anos, Leo e Rémi, acaba de repente. Sem entender o que aconteceu, Léo procura Sophie, mãe de Rémi.",
+            "popularity": 236.674,
+            "poster_path": "/247j36lEhkTGYTjFE3oWKVKMwVJ.jpg",
+            "release_date": "2022-11-01",
+            "title": "Close",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 322
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+            "genre_ids": [
+                12,
+                18,
+                878
+            ],
+            "id": 157336,
+            "original_language": "en",
+            "original_title": "Interstellar",
+            "overview": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+            "popularity": 228.124,
+            "poster_path": "/nCbkOyOMTEwlEV0LtCOvCnwEONA.jpg",
+            "release_date": "2014-11-05",
+            "title": "Interestelar",
+            "video": false,
+            "vote_average": 8.4,
+            "vote_count": 31051
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sUuzl04qNIYsnwCLQpZ2RSvXA1V.jpg",
+            "genre_ids": [
+                35,
+                28,
+                53
+            ],
+            "id": 792775,
+            "original_language": "is",
+            "original_title": "Leynilögga",
+            "overview": "",
+            "popularity": 259.637,
+            "poster_path": "/ycUeFlv41RRQRIZxkxOyw8PpSPw.jpg",
+            "release_date": "2022-05-23",
+            "title": "Leynilögga",
+            "video": false,
+            "vote_average": 6.1,
+            "vote_count": 72
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1570OZ9lWy94ekK505RDxElp4qx.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 1086990,
+            "original_language": "es",
+            "original_title": "Malcriados",
+            "overview": "",
+            "popularity": 237.629,
+            "poster_path": "/3WiDmXSZoDGkDweMc4dosZsDjpn.jpg",
+            "release_date": "2023-02-15",
+            "title": "Malcriados",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 37
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nzDMlEi6h2HMyRDU02eGsa9hncm.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 776512,
+            "original_language": "en",
+            "original_title": "On the Count of Three",
+            "overview": "On The Count of Three é uma comédia sombria que segue dois melhores amigos deprimidos, Kevin (Christopher Abbott) e Val (Jerod Carmichael), no dia em que decidem se matar. Após os amigos fazerem um pacto de suicídio, eles decidem ter um último dia para cuidar de negócios inacabados. Convencidos de que são suas últimas horas na Terra, os dois começam uma viagem rumo ao fim, uma conclusão aparentemente por vontade própria, mas derivada de um trauma assustador, com várias paradas para obter retribuição daqueles que consideram responsáveis ??por suas dores.",
+            "popularity": 237.466,
+            "poster_path": "/uiUaxQ6ZulWk77qeVHdbmX5TWDU.jpg",
+            "release_date": "2022-05-13",
+            "title": "On the Count of Three",
+            "video": false,
+            "vote_average": 6.6,
+            "vote_count": 43
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5GA3vV1aWWHTSDO5eno8V5zDo8r.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 760161,
+            "original_language": "en",
+            "original_title": "Orphan: First Kill",
+            "overview": "Lena Klammer orquestra uma fuga brilhante de uma unidade psiquiátrica russa e viaja para os Estados Unidos, representando a filha desaparecida de uma família rica. Mas a nova vida de Lena como \"Esther\" vem com uma ruga inesperada e a coloca contra uma mãe que protegerá sua família a qualquer custo.",
+            "popularity": 248.24,
+            "poster_path": "/okgBTByIqwRotmfg3ljUBAyVmcW.jpg",
+            "release_date": "2022-07-27",
+            "title": "Órfã 2: A Origem",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 1652
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 677118,
+            "original_language": "ko",
+            "original_title": "오르가즘 특강 2",
+            "overview": "",
+            "popularity": 234.619,
+            "poster_path": "/gYSJi5avO0RmzrX9ZbKwM7ZMkng.jpg",
+            "release_date": "2020-02-20",
+            "title": "오르가즘 특강 2",
+            "video": false,
+            "vote_average": 10,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1stUIsjawROZxjiCMtqqXqgfZWC.jpg",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "id": 672,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Chamber of Secrets",
+            "overview": "Carros voadores, árvores que lutam e um misterioso elfo, com um aviso ainda mais misterioso. Harry Potter está pronto para dar início ao segundo ano de sua maravilhosa jornada no mundo da bruxaria. Em Hogwarts nesse ano, aranhas falam, cartas dão broncas e a habilidade de Harry para falar com cobras voltará contra ele. De clubes de duelo a jogadores de quadribol desonestos, esse será um ano de aventura e perigo para todos. Quando a mensagem sangrenta na parede anuncia que a Câmara Secreta foi aberta, Harry, Rony e Hermione percebem que para salvar Hogwarts será preciso muita mágica e coragem. Confira essa enfeitiçante adaptação do segundo livro da obra da escritora J.K. Rowling e prepare-se para ficar petrificado quando Harry Potter demonstrar que, mais que um bruxo, é um verdadeiro herói.",
+            "popularity": 225.132,
+            "poster_path": "/rmsP4F5tjuOpnHsQAPba6YjHDFq.jpg",
+            "release_date": "2002-11-13",
+            "title": "Harry Potter e a Câmara Secreta",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 19715
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hJ1jUw8irCiWwQk7BElxF92BrlK.jpg",
+            "genre_ids": [
+                12,
+                18,
+                28
+            ],
+            "id": 147441,
+            "original_language": "en",
+            "original_title": "Exodus: Gods and Kings",
+            "overview": "Exodus é uma adaptação da história bíblica do Êxodo, segundo livro do Antigo Testamento. O filme narra a vida do profeta Moisés (Christian Bale), nascido entre os hebreus na época em que o faraó ordenava que todos os homens hebreus fossem afogados. Moisés é resgatado pela irmã do faraó e criado na família real. Quando se torna adulto, Moisés recebe ordens de Deus para ir ao Egito, na intenção de liberar os hebreus da opressão. No caminho, ele deve enfrentar a travessia do deserto e passar pelo Mar Vermelho.",
+            "popularity": 241.698,
+            "poster_path": "/sNcYlxw4zOOgIQebsFegw3gQixB.jpg",
+            "release_date": "2014-12-03",
+            "title": "Êxodo: Deuses e Reis",
+            "video": false,
+            "vote_average": 5.8,
+            "vote_count": 4137
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5hoS3nEkGGXUfmnu39yw1k52JX5.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 960704,
+            "original_language": "ja",
+            "original_title": "鋼の錬金術師 完結編 最後の錬成",
+            "overview": "Acompanhe a última missão da jornada épica dos irmãos Elric: enfrentar uma ameaça nacional de outro mundo.",
+            "popularity": 242.462,
+            "poster_path": "/uMzOYHGiHEfknowTlg3o72gSvHy.jpg",
+            "release_date": "2022-06-24",
+            "title": "Fullmetal Alchemist: A Alquimia Final",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 144
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jazlkwXfw4KdF6fVTRsolOvRCmu.jpg",
+            "genre_ids": [
+                53,
+                12
+            ],
+            "id": 924482,
+            "original_language": "en",
+            "original_title": "The Ledge",
+            "overview": "Uma aventura de escalada entre duas amigas se transforma em um pesadelo aterrorizante. Depois que Kelly testemunha um crime, ela é perseguida pelos responsáveis e sua única saída é fugir por uma perigosa montanha.",
+            "popularity": 260.126,
+            "poster_path": "/yFjL4xFc6uxrfxBuZLei6L268SM.jpg",
+            "release_date": "2022-02-18",
+            "title": "Perseguição nas Alturas",
+            "video": false,
+            "vote_average": 6.6,
+            "vote_count": 235
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/96SADhPnkXnVN3KaRKsDeBovLcm.jpg",
+            "genre_ids": [
+                28,
+                14,
+                10770
+            ],
+            "id": 877703,
+            "original_language": "en",
+            "original_title": "Teen Wolf: The Movie",
+            "overview": "Um terrível mal surgiu na cidade de Beacon Hills. Os lobos estão uivando mais uma vez pedindo o retorno de Banshees, Werecoyotes, Hellhounds, Kitsunes e todos os outros metamorfos da noite. Mas apenas um lobisomem como Scott McCall, que agora não é mais um adolescente, e sim um Alfa, pode reunir novos aliados e reunir amigos de confiança para lutar contra o que poderia ser o inimigo mais poderoso e mortal que eles já enfrentaram.",
+            "popularity": 229.814,
+            "poster_path": "/e4M1YCKc07PeBoUs7ST2QgCiZFB.jpg",
+            "release_date": "2023-01-18",
+            "title": "Teen Wolf: O Filme",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 558
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7jjwdoIVPJp7gcDo9uE1sVZi2Rs.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 296096,
+            "original_language": "en",
+            "original_title": "Me Before You",
+            "overview": "Will é um garoto rico e bem-sucedido, até sofrer um grave acidente que o deixa preso a uma cadeira de rodas. Ele está profundamente depressivo e contrata uma garota do campo para cuidar dele. Ela sempre levou uma vida modesta, com dificuldades financeiras e problemas no trabalho, mas está disposta a provar para Will que ainda existem razões para viver.",
+            "popularity": 289.42,
+            "poster_path": "/1a60KPNTC4JKYphNQveAB37Lyif.jpg",
+            "release_date": "2016-06-01",
+            "title": "Como Eu Era Antes de Você",
+            "video": false,
+            "vote_average": 7.9,
+            "vote_count": 11016
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/254iY5CzFzjnjkP0lUkLpOLvXar.jpg",
+            "genre_ids": [
+                53,
+                18,
+                80
+            ],
+            "id": 881164,
+            "original_language": "en",
+            "original_title": "Boston Strangler",
+            "overview": "As repórteres Loretta McLaughlin e Jean Cole são pioneiras ao divulgar o caso dos famosos assassinatos do Estrangulador de Boston. À medida que o assassino faz mais vítimas, a dupla continua corajosamente a investigação, colocando suas próprias vidas em jogo em sua busca para revelar a verdade.",
+            "popularity": 215.328,
+            "poster_path": "/iyJM16EEF5jcQZipFjpRtEjeRyu.jpg",
+            "release_date": "2023-03-17",
+            "title": "O Estrangulador de Boston",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 265
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/okRg5RLwYOM9I01aaT6A9tUqxoC.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 1057577,
+            "original_language": "nl",
+            "original_title": "Noise",
+            "overview": "Após se mudar para a casa onde passou a infância, um homem descobre segredos sinistros da própria família ao investigar um acidente que aconteceu na região.",
+            "popularity": 217.236,
+            "poster_path": "/yka6u5dbx1vWoMrNIHHutluaepp.jpg",
+            "release_date": "2023-03-17",
+            "title": "O Som do Caos",
+            "video": false,
+            "vote_average": 4.8,
+            "vote_count": 75
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/urDWNffjwmNi5IQaezw9GwqkUXa.jpg",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "id": 767,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Half-Blood Prince",
+            "overview": "À medida que Lorde Voldemort aperta seu cerco ao mundo dos Trouxas e dos feiticeiros. Hogwarts deixou de ser um paraiso protegido. Harry suspeita que existam perigos até mesmo dentro do castelo, mas Dumbledore está mais preocupado para a batalha final que está próximo de se iniciar. Juntos, eles se esforçam para descobrir a chave que desbloqueia as defesas de Voldemort e, para isso, Dumbledore recruta seu velho amigo horace slughorn, quem, ele acredita, possuí informações valiosas a respeito. Mesmo quando um confronto decisivo se aproxima, há tempo para romance nos corações de Harry, Ron, Hermione e seus colegas de classe. O amor está no ar, mas o perigo também e Hogwarts poderá nunca mais ser a mesma.",
+            "popularity": 235.181,
+            "poster_path": "/zSKNXome5vmnBVQCmpWN8do7Bpa.jpg",
+            "release_date": "2009-07-07",
+            "title": "Harry Potter e o Enigma do Príncipe",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 17513
+        }
+    ],
+    "total_pages": 37822,
+    "total_results": 756422
+}
+let dadosFiltrados = []
+function testGenres(dados){
+    if(dados.includes(80)){
+        return true
+    }else{
+        return false
+    }
+}
+
+const results = dados.results
+results.forEach((element) => {
+    if(testGenres(element.genre_ids)){
+        dadosFiltrados.push(element)
+    }
+});
+
+console.log(Array(dadosFiltrados))
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.row-container-originails{
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
+    gap: 32px;
+    margin: 16px;
+}
+.row-cards-originails{
+    background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42)); 
+    box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 16.666666666%;
+    position: relative;
+    overflow: hidden;
+    transition: all 250ms;
+}
+.row-cards-originails:hover{
+    transform: scale(1.05);
+    background-color: none;
+    border-color: #CED7E8;
+}
+
+.hover-image-video{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.img-cards-originails{
+    display: block;
+    width: 100%;
+}

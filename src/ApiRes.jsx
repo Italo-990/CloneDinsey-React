@@ -46,12 +46,6 @@ const results = await dados()
 //OBJECT FILMES
 const filmes = [
   {
-    name:"Trending",
-    title:"Em alta",
-    results: filterResults(16),
-    isLarge: true
-  },
-  {
     name:"Comedy",
     title:"Comédia",
     results: filterResults(35)
@@ -65,6 +59,12 @@ const filmes = [
   name:"Drama",
   title:"Drama",
   results: filterResults(18)
+},
+{
+  name:"Origins",
+  title:"Originais",
+  results: filterResults(16),
+  isLarge: true
 },
 {
   name:"Horror",

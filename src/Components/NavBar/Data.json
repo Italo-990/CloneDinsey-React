@@ -1,0 +1,30 @@
+{
+    "logoPage": "../../../icons/logoDisney.svg",
+    "navData":[
+        {
+            "content":"INÍCIO",
+            "icon":"../../../icons/homeIcon.svg"
+        },
+        {
+            "content":"PESQUISA",
+            "icon":"../../../icons/searchIcon.svg"
+        },
+        {
+            "content":"MINHA LISTA",
+            "icon":"../../../icons/myListIcon.svg"
+        },
+        {
+            "content":"ORIGINAIS",
+            "icon":"../../../icons/originalsIcon.svg"
+        },
+        {
+            "content":"FILMES",
+            "icon":"../../../icons/moviesIcon.svg"
+        },
+        {
+            "content":"SÉRIES",
+            "icon":"../../../icons/seriesIcon.svg"
+        }
+    ]
+    
+}

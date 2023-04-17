@@ -1,17 +1,15 @@
-import Row from "./Components/Row"
+import Row from "./Components/Row/Row"
 import filmes from  "./ApiRes"
-import Banner from "./Components/Banner"
+import Banner from "./Components/Banner/Banner"
 import "./App.css"
+import RowOriginals from "./Components/RowOriginals/RowOriginals"
 
-const randomNumber = Math.floor(Math.random() * 10 ) + 1
+
 function App() {
   return (
       <>
-        //BANNER
-        <Banner results={filmes[0].results[randomNumber]}/>
-
-
-        //ROW-CARDS
+        <Banner/>
+        <RowOriginals/>
         {
           filmes.map(({ name, title, results, isLarge }) =>{
             return <Row 

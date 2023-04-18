@@ -10,7 +10,7 @@ function NavBar() {
             return (
               <li key={content} className="nav-li-header flex-item flex-itens-center">
                 <img className="nav-icon" src={icon}/>
-                <span className="span-nav">{content}</span>
+                <a className="span-nav" href="#">{content}</a>
               </li>
             )
           })}

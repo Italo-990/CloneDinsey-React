@@ -1,0 +1,17 @@
+.footer-page{
+    max-width: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+.logo-footer{
+    width: 100px;
+    margin:16px 0 16px 0;
+}
+.ul-footer{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 0.7em;
+}

@@ -1,25 +1,63 @@
-img{
-    width:50px
+.flex-item{
+    display: flex;
+}
+.flex-item-center{
+    align-items: center;
+    justify-content: center;
 }
 .header-page{
-    display: flex;
     max-width: 100%;
+    align-items: center;
     height: 80px;
     background-color: black;
     gap: 32px;
-    align-items: center;
+    position: sticky;
+    z-index: 10;
+    top:0;
 }
 
 .logoPage{
-    width: 100px;
+    width: 80px;
     display: block;
+    margin-left: 32px;
 }
 .nav-header-ul{
-    display: flex;
-    align-items: center;
     gap: 32px;
     list-style: none;
 }
+.nav-li-header{
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    gap:4px;
+}
 .nav-icon{
     width: 20px;
+}
+.span-nav{
+    font-weight: 600;
+}
+.span-nav::before{
+    content: "";
+    width: 0px;
+    bottom: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    transition: all 250ms ease-in-out;
+}
+.nav-li-header:hover .span-nav::before{
+    width: 50px;
+}
+.header-right-content{
+    margin-left: auto;
+    padding: 16px;
+    cursor: pointer;
+}
+.header-right-span{
+    margin-right: 16px;
+}
+.header-right-img{
+    width: 50px;
+    display: block;
 }

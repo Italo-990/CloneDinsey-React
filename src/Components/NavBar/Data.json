@@ -25,6 +25,11 @@
             "content":"SÉRIES",
             "icon":"../../../icons/seriesIcon.svg"
         }
-    ]
+    ],
+
+    "navRigth":{
+        "name": "Italo",
+        "icon": "../../../icons/disneyIconRigthNav.png"
+    }
     
 }

@@ -8,7 +8,10 @@ function NavBar() {
         <ul className="nav-header-ul">
           {data.navData.map( ( { content, icon } )=>{
             return (
-              <li key={content} className="nav-li-header"><img className="nav-icon" src={icon}/>{content}</li>
+              <li key={content} className="nav-li-header">
+                <img className="nav-icon" src={icon}/>
+                <span>{content}</span>
+              </li>
             )
           })}
         </ul>

@@ -16,10 +16,14 @@
     gap: 16px;
     font-size: 0.7em;
 }
+.ul-footer li > a:hover{
+    text-decoration: underline;
+}
 .span-footer-rigth-resever{
     font-size: 0.7em;
     color: #B2C1C4;
     display: block;
     margin-top: 16px;
     padding-bottom: 16px;
+    cursor: pointer;
 }

@@ -1,5 +1,5 @@
 {
-    "logoPage": "../../../icons/logoDisney.svg",
+    "logoPage": "../src/icons/logoDisney.svg",
     "navData":[
     {
         "title":"Política de privacidade",

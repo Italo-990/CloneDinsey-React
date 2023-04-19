@@ -1,35 +1,35 @@
 {
-    "logoPage": "../../../icons/logoDisney.svg",
+    "logoPage": "../src/icons/logoDisney.svg",
     "navData":[
         {
             "content":"INÍCIO",
-            "icon":"../../../icons/homeIcon.svg"
+            "icon":"../src/icons/homeIcon.svg"
         },
         {
             "content":"PESQUISA",
-            "icon":"../../../icons/searchIcon.svg"
+            "icon":"../src/icons/searchIcon.svg"
         },
         {
             "content":"MINHA LISTA",
-            "icon":"../../../icons/myListIcon.svg"
+            "icon":"../src/icons/myListIcon.svg"
         },
         {
             "content":"ORIGINAIS",
-            "icon":"../../../icons/originalsIcon.svg"
+            "icon":"../src/icons/originalsIcon.svg"
         },
         {
             "content":"FILMES",
-            "icon":"../../../icons/moviesIcon.svg"
+            "icon":"../src/icons/moviesIcon.svg"
         },
         {
             "content":"SÉRIES",
-            "icon":"../../../icons/seriesIcon.svg"
+            "icon":"../src/icons/seriesIcon.svg"
         }
     ],
 
     "navRigth":{
         "name": "Italo",
-        "icon": "../../../icons/disneyIconRigthNav.png"
+        "icon": "../src/icons/disneyIconRigthNav.png"
     }
     
 }

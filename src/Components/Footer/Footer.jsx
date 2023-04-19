@@ -3,7 +3,7 @@ import "./Footer.css"
 function Footer() {
   return (
    <footer className="footer-page">
-        <img class="logo-footer "src={data.logoPage}/>
+        <img className="logo-footer "src={data.logoPage}/>
         <nav>
             <ul className="ul-footer">
                 {data.navData.map(({title, id})=>{
@@ -13,7 +13,7 @@ function Footer() {
                 })}
             </ul>
         </nav>
-        <span>{data.reservedRights}</span>
+        <span className="span-footer-rigth-resever">{data.reservedRights}</span>
    </footer>
   )
 }

@@ -1,5 +1,7 @@
-{
-    "logoPage": "../src/icons/logoDisney.svg",
+import logoDisney from "../../icons/logoDisney.svg"
+
+const Data = {
+    "logoPage": logoDisney,
     "navData":[
     {
         "title":"Política de privacidade",
@@ -40,3 +42,5 @@
 ],
     "reservedRights":"© Disney. Todos os direitos reservados."
 }
+
+export default Data

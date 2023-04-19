@@ -1,19 +1,19 @@
-import data from "./Data.json"
+import Data from "./Data.jsx"
 import "./Footer.css"
 function Footer() {
   return (
    <footer className="footer-page">
-        <img className="logo-footer "src={data.logoPage}/>
+        <img className="logo-footer "src={Data.logoPage}/>
         <nav>
             <ul className="ul-footer">
-                {data.navData.map(({title, id})=>{
+                {Data.navData.map(({title, id})=>{
                     return (
                         <li key={id}><a href="#">{title}</a></li>
                     )
                 })}
             </ul>
         </nav>
-        <span className="span-footer-rigth-resever">{data.reservedRights}</span>
+        <span className="span-footer-rigth-resever">{Data.reservedRights}</span>
    </footer>
   )
 }

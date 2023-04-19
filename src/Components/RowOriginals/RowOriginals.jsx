@@ -1,10 +1,10 @@
 import React from 'react'
-import data from "./Data.json"
+import Data from "./Data"
 import "./RowOriginals.css"
 function RowOriginals() {
   return (
     <div className='row-container-originails'>
-        {  data.map ( ( { rowimg, id, video } ) => {
+        {  Data.map ( ( { rowimg, id, video } ) => {
             return (
                     <div key={id} className='row-cards-originails'> 
                         <img src={rowimg} className='img-cards-originails'></img>

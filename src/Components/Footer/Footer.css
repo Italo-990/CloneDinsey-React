@@ -15,6 +15,7 @@
     flex-wrap: wrap;
     gap: 16px;
     font-size: 0.7em;
+    padding: 0 16px 8px 16px;
 }
 .ul-footer li > a:hover{
     text-decoration: underline;

@@ -27,7 +27,6 @@
 }
 .nav-li-header{
     justify-content: center;
-    position: relative;
     cursor: pointer;
     gap:4px;
 }
@@ -36,18 +35,15 @@
 }
 .span-nav{
     font-weight: 600;
+    position: relative;
 }
-.span-nav::before{
-    content: "";
+.divHover{
     width: 0px;
     bottom: 0;
     height: 2px;
     background-color: white;
     position: absolute;
     transition: all 250ms ease-in-out;
-}
-.nav-li-header:hover .span-nav::before{
-    width: 50px;
 }
 .header-right-content{
     margin-left: auto;

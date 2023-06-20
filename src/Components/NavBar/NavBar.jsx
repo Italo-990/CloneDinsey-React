@@ -1,6 +1,23 @@
 import Data from "./Data.jsx"
 import "./NavBar.css"
+
+function handleWidth(element,width){
+  element.style.width = `${width}px`
+}
+function hoverEffect({target}){
+  if(target.classList.contains('divHover')) return
+  const documentWidth = target.clientWidth
+  const divHover = target.children[0]
+  handleWidth(divHover,documentWidth)
+}
+function outEffect({target}){
+  if(target.classList.contains('divHover')) return
+  const divHover = target.children[0]
+  handleWidth(divHover,0)
+}
+
 function NavBar() {
+
   return (
     <header className="header-page flex-item">
       <img src={Data.logoPage} className="logoPage"/>
@@ -10,7 +27,10 @@ function NavBar() {
             return (
               <li key={content} className="nav-li-header flex-item flex-itens-center">
                 <img className="nav-icon" src={icon}/>
-                <a className="span-nav" href="#">{content}</a>
+                <a className="span-nav" href="#" onMouseOver={hoverEffect} onMouseOut={outEffect}>
+                  {content}
+                  <div className="divHover"></div>
+                </a>
               </li>
             )
           })}
